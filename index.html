@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>XavEx Web | Gaming</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#090d18;color:#f4f5ff;font-family:Arial,sans-serif}
+header{padding:20px 8%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #252b42;gap:20px;flex-wrap:wrap}
+.logo{font-size:25px;font-weight:900;color:white}
+.logo span{color:#9b7bff}
+nav{display:flex;gap:20px;flex-wrap:wrap}
+a{color:#c8cde0;text-decoration:none}
+nav a:hover{color:#a78bfa}
+.hero{text-align:center;padding:100px 20px;background:radial-gradient(ellipse at top,#30205c,#090d18 70%)}
+.tag{color:#bca8ff;border:1px solid #59458c;border-radius:30px;padding:8px 14px;font-size:12px}
+h1{font-size:clamp(42px,8vw,76px);margin:28px 0 15px;line-height:1.1}
+h1 span{color:#a78bfa}
+.hero p{color:#b2bad0;max-width:550px;margin:0 auto 30px;line-height:1.8}
+.btn{display:inline-block;background:#7950e8;color:white;padding:13px 20px;border-radius:9px;margin:5px;font-weight:bold}
+.btn:hover{background:#6038c9}
+section{padding:60px 8%;max-width:1200px;margin:auto}
+.kicker{color:#a78bfa;font-size:13px;text-transform:uppercase;letter-spacing:2px}
+h2{font-size:32px;margin:10px 0}
+.sub{color:#aeb6cb;margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:#12192a;border:1px solid #28314b;border-radius:15px;padding:25px;transition:.2s}
+.card:hover{transform:translateY(-5px);border-color:#8664ed}
+.emoji{font-size:32px}
+.card p{color:#aeb6cb;line-height:1.7}
+.card a{color:#bba6ff}
+.community{text-align:center;background:linear-gradient(135deg,#21163d,#11192a);border:1px solid #423064;border-radius:20px;padding:45px 20px}
+footer{text-align:center;padding:25px;color:#828ca5;border-top:1px solid #252b42;font-size:13px}
+@media(max-width:600px){header{justify-content:center}nav{justify-content:center;gap:12px}.hero{padding:75px 18px}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#accueil">XavEx <span>Web.</span></a>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#jeux">Jeux</a>
+    <a href="#videos">Vidéos</a>
+    <a href="#projets">Projets</a>
+    <a href="#communaute">Communauté</a>
+  </nav>
+</header>
+
+<main>
+<div class="hero" id="accueil">
+  <span class="tag">✦ BIENVENUE DANS MON UNIVERS ✦</span>
+  <h1>Bienvenue sur<br><span>XavEx Web.</span></h1>
+  <p>Gaming, découvertes et créativité : retrouve mon univers, mes projets et mes prochaines aventures sur un seul site !</p>
+  <a class="btn" href="#jeux">Explorer le site ↓</a>
+</div>
+
+<section id="jeux">
+  <div class="kicker">Mon univers</div>
+  <h2>🎮 Mes jeux</h2>
+  <p class="sub">Les univers que j'aime partager.</p>
+  <div class="grid">
+    <div class="card"><div class="emoji">⛏️</div><h3>Minecraft</h3><p>Constructions, aventures et défis dans l'univers cubique.</p></div>
+    <div class="card"><div class="emoji">⚡</div><h3>Pokémon</h3><p>Secrets, découvertes et aventures Pokémon.</p></div>
+    <div class="card"><div class="emoji">🕹️</div><h3>Autres jeux</h3><p>D'autres univers gaming à découvrir bientôt.</p></div>
+  </div>
+</section>
+
+<section id="videos">
+  <div class="kicker">Mes contenus</div>
+  <h2>▶️ Mes vidéos</h2>
+  <p class="sub">Retrouve ici mes vidéos et nouveautés YouTube.</p>
+  <div class="card">
+    <div class="emoji">📺</div>
+    <h3>Ma chaîne YouTube</h3>
+    <p>Le point de rendez-vous pour mes prochaines aventures vidéo.</p>
+    <a href="https://www.youtube.com/" target="_blank" rel="noopener">Découvrir YouTube ↗</a>
+  </div>
+</section>
+
+<section id="projets">
+  <div class="kicker">Mes créations</div>
+  <h2>✨ Mes projets</h2>
+  <p class="sub">Les idées que je développe et les nouveautés à venir.</p>
+  <div class="grid">
+    <div class="card"><div class="emoji">🌐</div><h3>XavEx Web</h3><p>Mon site officiel, construit petit à petit.</p></div>
+    <div class="card"><div class="emoji">🎬</div><h3>Création vidéo</h3><p>Des contenus gaming et des idées originales.</p></div>
+    <div class="card"><div class="emoji">🚀</div><h3>Prochainement</h3><p>De nouveaux projets seront ajoutés ici.</p></div>
+  </div>
+</section>
+
+<section id="communaute">
+  <div class="community">
+    <div class="kicker">On se retrouve ?</div>
+    <h2>Bienvenue dans la communauté !</h2>
+    <p class="sub">Les liens vers mes réseaux et mon serveur seront bientôt disponibles ici.</p>
+    <a class="btn" href="https://discord.com/" target="_blank" rel="noopener">Découvrir Discord ↗</a>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 XavEx Web · Créé avec passion 🎮</footer>
+</body>
+</html>
